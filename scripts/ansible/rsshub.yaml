@@ -15,7 +15,7 @@
             url: '{{ item }}'
             state: present
         with_items:
-            - https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+            - https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key
             - https://download.docker.com/linux/ubuntu/gpg
             - https://dl.cloudsmith.io/public/caddy/stable/cfg/gpg/gpg.155B6D79CA56EA34.key
       - name: Install repos
@@ -24,7 +24,7 @@
             state: present
             update_cache: yes
         with_items:
-            - deb https://deb.nodesource.com/node_12.x focal main
+            - deb https://deb.nodesource.com/node_24.x nodistro main
             - deb https://download.docker.com/linux/ubuntu focal stable
             - deb https://dl.cloudsmith.io/public/caddy/stable/deb/debian any-version main
       - name: Install prerequisites

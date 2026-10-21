@@ -243,6 +243,8 @@
             "google-play-scraper>tough-cookie": "^6.0.0",
             "hasown": "npm:@nolyfill/hasown@^1",
             "header-generator>browserslist": "4.28.9",
+            "ip-address@<10.7.1": "^10.7.4",
+            "postman-request>qs": "^6.16.1",
             "rss-parser@3.13.0>entities": "^8.1.0",
             "rss-parser@3.13.0>xml2js": "^0.6.2",
             "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
